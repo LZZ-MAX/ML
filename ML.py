@@ -13,7 +13,7 @@ xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
 ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
 
 # 訓練模型並記錄損失值
-history = model.fit(xs, ys, epochs=500, verbose=0)
+history = model.fit(xs, ys, epochs=600, verbose=0)
 
 # 繪製損失值圖表
 plt.plot(history.history['loss'])
